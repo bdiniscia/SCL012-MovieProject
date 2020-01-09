@@ -96,5 +96,5 @@ Al realizar los testeo surgieron puntos a mejorar:
 # **Conclusión**
 
 Nuestra problemática era sobre cómo podía, una cadena de cines, atraer clientes para que conozcan sus nuevas salas.
-Para lograr este objetivo y aprovechando que se acercaba la fecha de su aniversario se propuso regalar entradas. Con este objetivo en mente, decidimos crear una trivia donde los participantes puedan ganar 2 entradas para ir al cine respondiendo 5 preguntas sobre la película que elijan de las sugeridas. En caso de ganar, se genera un código QR que se deberá descargar para luego ser canjeado en las boleterias del cine. En caso de perder, se le brindará al cliente la posibilidad de volver a jugar.
+Para lograr este objetivo se propuso regalar entradas. Con este objetivo en mente, decidimos crear una trivia donde los participantes puedan ganar 2 entradas para ir al cine respondiendo 5 preguntas sobre la película que elijan de las sugeridas. En caso de ganar, se genera un código QR que se deberá descargar para luego ser canjeado en las boleterias del cine. En caso de perder, se le brindará al cliente la posibilidad de volver a jugar.
 Finalmente se cumple el objetivo dando al usuario una lista de 8 películas sobre las cuales puede jugar.
