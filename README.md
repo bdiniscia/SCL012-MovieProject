@@ -80,6 +80,8 @@ https://www.loom.com/share/e7d51f53c8994645be8e214473308714
 
 https://www.loom.com/share/a97b76d9080b4e5785552b069765dd6f
 
+https://www.loom.com/share/6465a21fcb384f68996a0f9df25cc6c3
+
 ## Iteración
 
 Al realizar los testeo surgieron puntos a mejorar:
