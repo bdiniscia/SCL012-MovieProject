@@ -46,7 +46,7 @@ const showMovies = (movies) => {
             answers: [{ans: "Comedia", isRight: false}, 
                     {ans: "Suspenso", isRight: false}, 
                     {ans: data.Genre, isRight: true}, 
-                    {ans:"a y b", isRight: false}]
+                    {ans:"Todas las anteriores", isRight: false}]
         }
     ];
 
