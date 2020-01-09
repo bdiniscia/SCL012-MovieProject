@@ -36,10 +36,10 @@ const showMovies = (movies) => {
         },
         {
             question: "Nombre del actor principal",
-            answers: [{ans: "Andrew Scott", isRight: false}, 
-                    {ans: "Roman Griffin Davis", isRight: false}, 
+            answers: [{ans: "Andrew Scott,Jack Nicholson,Daniel Day-Lewis,Cate Blanchett", isRight: false}, 
+                    {ans: "Roman Griffin Davis,Leonardo DiCaprio,Morgan Freeman", isRight: false}, 
                     {ans: data.Actors, isRight: true}, 
-                    {ans:"Benedict Cumberbatch", isRight: false}]
+                    {ans:"Benedict Cumberbatch,Meryl Streep,Kate Winslet,Will Smith", isRight: false}]
         },
         {
             question: "¿De qué género es el Joker?",
@@ -69,7 +69,7 @@ const showMovies = (movies) => {
         {
             question: "¿Qué tipo de género es?",
             answers: [{ans: "Comedia", isRight: false}, 
-                    {ans: "Crimen", isRight: false}, 
+                    {ans: "Suspenso", isRight: false}, 
                     {ans: data.Genre, isRight: true}, 
                     {ans:"Todas las anteriores", isRight: false}]
         },
@@ -82,10 +82,10 @@ const showMovies = (movies) => {
         },
         {
             question: "¿Cómo se llama el actor principal de The Irishman?",
-            answers: [{ans: "Anthony Hopkins", isRight: false}, 
-                    {ans: "Sidney Cole", isRight: false}, 
+            answers: [{ans: "Anthony Hopkins,Harrison Ford,Denzel Washington", isRight: false}, 
+                    {ans: "Sidney Cole,Forest Whitaker,Dustin Hoffman,Helen Mirren", isRight: false}, 
                     {ans: data.Actors, isRight: true}, 
-                    {ans:"Anthony McCarten", isRight: false}]
+                    {ans:"Tom Cruise,Samuel L. Jackson,Don Cheadle,Diane Keaton", isRight: false}]
         }
     ];
 
@@ -107,9 +107,9 @@ const showMovies = (movies) => {
             },
             {
                 question: "¿Quiénes protagonizan de la película Marriage Story?",
-                answers: [{ans: "Anthony Hopkins,Meryl Streep", isRight: false}, 
-                        {ans: "Julia Roberts,Joseph Gordon-Levitt", isRight: false}, 
-                        {ans: "Benedict Cumberbatch,Charlize Theron", isRight: false}, 
+                answers: [{ans: "Anthony Hopkins,Meryl Streep,Eddie Murphy", isRight: false}, 
+                        {ans: "Julia Roberts,Joseph Gordon-Levitt,Julianne Moore", isRight: false}, 
+                        {ans: "Benedict Cumberbatch,Charlize Theron,Angelina Jolie", isRight: false}, 
                         {ans: data.Actors, isRight: true}]
             },
             {
@@ -139,10 +139,10 @@ const showMovies = (movies) => {
             },
             {
                 question: "The Two Popes se estrenó en : ",
-                answers: [{ans:  "20 de Octubre del 2019", isRight: false}, 
-                        {ans: "21 de Diciembre del 2019" ,isRight: false}, 
+                answers: [{ans:  "20 Oct 2019", isRight: false}, 
+                        {ans: "21 Dic 2019" ,isRight: false}, 
                         {ans: data.Released, isRight: true}, 
-                        {ans:"30 de Noviembre del 2019", isRight: false}]
+                        {ans:"30 Nov 2019", isRight: false}]
             },
             {
                 question: "¿Cómo se llama el escritor de la pelicula The Two Popes?",
@@ -170,14 +170,14 @@ const showMovies = (movies) => {
           // PREGUNTAS DE Once upon a time in hollywood
           let questionsOnceUpon = [
             {
-                question: "¿Qué calificación po edad tiene esta pelicula?",
+                question: "¿Qué calificación por edad tiene esta pelicula?",
                 answers: [{ans:"PG- 13", isRight: false}, 
                         {ans: data.Rated, isRight: true}, 
                         {ans: "PG", isRight: false}, 
                         {ans: "G", isRight: false}]
             },
             {
-                question: "Nombre del director y escritor de la película ",
+                question: "Nombre del director y escritor de la película:",
                 answers: [{ans:  "Bob Kane", isRight: false}, 
                         {ans: "Leonardo DiCaprio" ,isRight: false}, 
                         {ans: data.Director, isRight: true}, 
@@ -191,11 +191,11 @@ const showMovies = (movies) => {
                         {ans: data.Production, isRight: true}]
             },
             {
-                question: "Su actor principal es : ",
-                answers: [{ans: "Robert de Niro", isRight: false}, 
+                question: "Sus actores principales son: ",
+                answers: [{ans: "Robert de Niro,Angelina Jolie,Al Pacino", isRight: false}, 
                         {ans: data.Actors, isRight: true}, 
-                        {ans: "Bob Kane", isRight: false}, 
-                        {ans: "Thomasin Mckenzie", isRight: false}]
+                        {ans: "Bob Kane,Natalie Portman,Anthony Hopkins", isRight: false}, 
+                        {ans: "Thomasin Mckenzie,Sandra Bullock,Johnny Depp", isRight: false}]
             },
             {
                 question: "¿Cuánto tiempo tiene de duracion en total la película?",
@@ -216,28 +216,28 @@ const showMovies = (movies) => {
                         {ans: "Thomasin McKenzie", isRight: false}]
             },
             {
-                question: "El país de origen de esta película es : ",
+                question: "El país de origen de esta película es: ",
                 answers: [{ans:  "Canadá", isRight: false}, 
                         {ans: "UK" ,isRight: false}, 
                         {ans: data.Country, isRight: true}, 
                         {ans:"Alemania", isRight: false}]
             },
             {
-                question: "¿De que género es esta película?",
+                question: "¿De qué género es esta película?",
                 answers: [{ans: "Comedia" , isRight: false}, 
                         {ans: "Drama", isRight: false}, 
                         {ans: "Misterio", isRight: false}, 
                         {ans: data.Genre, isRight: true}]
             },
             {
-                question: "¿Que actriz participa en esta película? ",
-                answers: [{ans: "Scarlett Johansson", isRight: false}, 
-                        {ans: "Nina Parker", isRight: false }, 
+                question: "¿Cuáles actores participan en esta película? ",
+                answers: [{ans: "Scarlett Johansson,Johnny Depp,Halle Berry", isRight: false}, 
+                        {ans: "Nina Parker,Leonardo DiCaprio,Viola Davis", isRight: false }, 
                         {ans: data.Actors, isRight: true}, 
-                        {ans: "Julia Roberts", isRight: false}]
+                        {ans: "Julia Roberts,Tom Hanks,Julia Roberts,Helen Mirren", isRight: false}]
             },
             {
-                question: "¿Qué calificación tiene por edad?",
+                question: "¿Qué clasificación tiene por edad?",
                 answers: [{ans: data.Rated, isRight: true}, 
                         {ans: "R", isRight: false}, 
                         {ans: "PG", isRight: false}, 
@@ -271,14 +271,14 @@ const showMovies = (movies) => {
             {
                 question: "¿En qué fecha se estrenó la película? ",
                 answers: [{ans: data.Released, isRight: true}, 
-                        {ans: "10 de Noviembre del 2019", isRight: false }, 
-                        {ans: "8 de Diciembre del 2019", isRight: false}, 
-                        {ans: "10 de Mayo del 2019", isRight: false}]
+                        {ans: "10 Nov 2019", isRight: false }, 
+                        {ans: "8 Dic 2019", isRight: false}, 
+                        {ans: "10 May 2019", isRight: false}]
             },
             {
                 question: "¿Cómo se llama el director de Parasite?",
-                answers: [{ans: "Fernando Meirelles", isRight: false}, 
-                        {ans: "Rian Johnson", isRight: false}, 
+                answers: [{ans: "Kim Ki-duk", isRight: false}, 
+                        {ans: "Chan-Wook Park", isRight: false}, 
                         {ans: "Sun-kyun Lee", isRight: false}, 
                         {ans: data.Director, isRight: true}]
             }
@@ -288,13 +288,13 @@ const showMovies = (movies) => {
         let quiestions1917 = [
             {
                 question: "¿De qué país es la película 1917?",
-                answers: [{ans: "USA", isRight: false}, 
+                answers: [{ans: data.Country, isRight: true}, 
                         {ans: "Canadá", isRight: false}, 
-                        {ans: "UK", isRight: false}, 
-                        {ans: "1 y 3", isRight: true}]
+                        {ans: "Alemania", isRight: false}, 
+                        {ans: "Francia", isRight: false}]
             },
             {
-                question: " ¿Quien es el director y a su vez uno de los escritores? ",
+                question: "¿Quién es el director y a su vez uno de los escritores?",
                 answers: [{ans:  "Robert de Niro", isRight: false}, 
                         {ans: data.Director ,isRight: true}, 
                         {ans: "Mark Strong", isRight: false}, 
@@ -303,9 +303,9 @@ const showMovies = (movies) => {
             {
                 question: "¿Quién participa en el elenco?",
                 answers: [{ans: data.Actors , isRight: true}, 
-                        {ans: "Roman Griffin Davis", isRight: false}, 
-                        {ans: "Thomasin McKenzie", isRight: false}, 
-                        {ans: "Merritt Wever", isRight: false}]
+                        {ans: "Roman Griffin Davis,Al Pacino,Peter O'Toole", isRight: false}, 
+                        {ans: "Thomasin McKenzie,George Clooney,Don Cheadle,Jeff Bridges", isRight: false}, 
+                        {ans: "Merritt Wever,Ben Kingsley,Robert Redford,Joaquin Phoenix", isRight: false}]
             },
             {
                 question: "¿A qué género corresponde 1917? ",
